@@ -145,6 +145,6 @@ export default async function ShopPage({ params }: ShopPageProps) {
           <QuoteForm shopId={shop.id} shopName={shop.name} />
         </div>
       </div>
-    </div>
+    </>
   );
 }
